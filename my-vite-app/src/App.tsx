@@ -1,12 +1,11 @@
-import './App.css'
-import Card from "./components/Card"
+// import Card from "./components/Card"
 
 function App() {
   
 
   return (
     <div>
-        <Card/>
+        {/* <Card/> */}
         hello
     </div>
   )
