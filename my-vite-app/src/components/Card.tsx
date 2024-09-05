@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import img1 from "../assets/wide-angle-shot-single-tree-grow.jpg";
 import img2 from "../assets/react.svg";
-type Props = {};
 
-const Card = (props: Props) => {
+const Card = () => {
   const [state1, setState1] = useState(false);
   const [state2, setState2] = useState(false);
   const [state3, setState3] = useState(false);
